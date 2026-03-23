@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página utilizando forms</title>
+    <link rel="stylesheet" href="exercicio2.css">
+</head>
+<body>
+    <main>
+        <!-- slide 51 aula 3-->
+         <div id="formulario">
+            <form action="">
+                <section>
+                    <fieldset>
+                        <legend>Informações pessoais dos alunos</legend>
+                        <label for="nome"></label>
+                        <input type="text" id="nome" name="nome" required size="30" maxlength="50" pattern="[a-zA-Z{1,50}]" autofocus/>
+                        <br>
+                        <br>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+                        <br>
+                        <br>
+                        <label>Sexo</label>
+                        <br>
+                        <input type="radio" id="Masculino" name="sexo" value="M" checked>
+                        <label>Masculino</label>
+                        <input type="radio" id="Feminino" name="sexo" value="F">
+                        <label>Feminino</label>
+                        <input type="radio" id="outro" name="sexo" value="O">
+                        <label>Outro</label>
+                        <br>
+                        <br>
+                        <label>Passatempos:</label>
+                        <br>
+                        <input type="checkbox" id="passatempo1" name="passatempos" value="ler">
+                        <label>Ler</label>
+                        <input type="checkbox" id="passatempo2" name="passatempos" value="esportes">
+                        <label>Praticar esportes</label>
+                        <input type="checkbox" id="passatempo3" name="passatempo" value="Sair">
+                        <label>Sair</label>
+                        <input type="checkbox" id="passatempo1" name="passatempo" value="Assistir Filme">
+                        <label>Assistir Filme</label>
+                        <p>
+                            <label>Cor favorita </label>
+                            <input type="color" id="cor" name="cor"value="#ff0000">
+                        </p>
+
+                        <br>
+                        <br>
+                        <input type="submit" value="Enviar">
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+
+                    <br>
+                    <br>
+                    <fieldset>
+                        <legend>Deixe alguma informação que julgar necessária</legend>
+                        <label>Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="50" rows="5" placeholder="vazio"></textarea>
+                        <br>
+                        <br>
+                        <label>País</label>
+                        <select name="país" id="país">
+                            <option value="">Selecione</option>
+                            <option value="brasil">Brasil</option>
+                            <option value="eua">EUA</option>
+                            <option value="portugal">Portugal</option>
+                            <option value="espanha">Espanha</option>
+                        </select>
+                        <br>
+                        <br>
+                        <button type="button">Cancelar</button>
+                    </fieldset>
+                </section>
+            </form>
+        </div>
+    </main>
+    <footer class ="rodape">Página criada na aula de Pweb - Direitos reservados - 2026 </footer>
+    
+</body>
+</html>
