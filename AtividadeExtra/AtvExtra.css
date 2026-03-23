@@ -7,14 +7,14 @@ header img {
   display: block;
   margin: 20px auto;
   border: none;
-  background-color: rgb(43, 43, 77); /* mesma cor do header */
+  background-color: rgb(43, 43, 77); 
 }
 
 header{
     padding: 70px;
     margin-top: 50px;
     margin-bottom: 50px;
-    /*background-color: rgb(43, 43, 77);*/
+    
     border: none;
     margin: 0;
     background: linear-gradient(to right, rgb(255, 83, 83), rgb(255, 71, 58));
@@ -23,12 +23,12 @@ header{
 
 .img img {
   display: block;
-  margin: 20px auto;        /* espaço externo em volta da imagem */
-  padding: 10px;            /* espaço interno entre a imagem e a borda */
-  border: 6px solid #2b2b4d; /* moldura */
-  border-radius: 10px;       /* cantos arredondados */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4); /* sombra suave */
-  max-width: 90%;            /* ajusta para não ficar gigante */
+  margin: 20px auto;       
+  padding: 10px;           
+  border: 6px solid #2b2b4d; 
+  border-radius: 10px;      
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4); 
+  max-width: 90%;          
 }
 
 h1{
