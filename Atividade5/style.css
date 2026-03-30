@@ -1,0 +1,77 @@
+.principal{
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 420px) {
+
+	.principal{
+        background-color: gray;
+    }
+    .cores::before{
+        content: "Cinza";
+    }
+
+}
+
+@media screen and (min-width: 421px) {
+
+	.principal{
+        background-color: orange;
+    }
+
+    .cores::before{
+        content: "Laranja";
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+
+	.principal{
+        background-color: rgb(255, 0, 200);
+    }
+
+    .cores::before{
+        content: "Rosa";
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+	.principal{
+        background-color: red;
+    }
+
+    .cores::before{
+        content: "Vermelho";
+    }
+
+}
+
+@media screen and (min-width: 136px) {
+
+	.principal{
+        background-color: yellow;
+    }
+
+    .cores::before{
+        content: "Amarelo";
+    }
+
+
+}
+    
+
+@media screen and (min-width: 1921px) {
+
+	.principal{
+        background-color: green;
+    }
+
+    .cores::before{
+        content: "Verde";
+    }
+
+}
